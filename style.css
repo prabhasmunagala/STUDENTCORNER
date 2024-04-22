@@ -438,12 +438,12 @@ p {
 }
 #about .col-left .about-img::after {
 	content: '';
-	position: absolute;
+	position: static;
 	left: -33px;
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid crimson;
+	border: 7px ;
 	z-index: -1;
 }
 /* End About Section */
